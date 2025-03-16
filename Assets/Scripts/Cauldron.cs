@@ -23,6 +23,14 @@ public class Cauldron : MonoBehaviour
         if(other.tag == "Mushroom"){
             gsm.mushrooms++;
             Destroy(other.gameObject);
-        }  
+        }
+        if(other.tag == "Crystal"){
+            gsm.crystals++;
+            Destroy(other.gameObject);
+        }
+        if(other.tag == "Flower"){
+            gsm.flowers++;
+            Destroy(other.gameObject);
+        }        
     }
 }
