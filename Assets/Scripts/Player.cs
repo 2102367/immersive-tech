@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System;
 
-public class SceneManager : MonoBehaviour
+
+public class Player : MonoBehaviour
 {
-    public int currentScene;
     // Start is called before the first frame update
     void Start()
     {
-        currentScene = 0;
+        
     }
 
     // Update is called once per frame
@@ -17,10 +19,9 @@ public class SceneManager : MonoBehaviour
         
     }
 
-    void OnTriggerEnter(Collider other)
-    {   
-        if(other.tag == "Player"){
-
+    private void OnTriggerEnter(Collider other){
+        if(other.tag == "Portal 1"){
+            SceneManager.LoadScene("World 2");
         }
     }
 }

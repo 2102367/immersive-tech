@@ -8,6 +8,7 @@ TagManager:
   - Mushroom
   - Flower
   - Crystal
+  - Portal 1
   layers:
   - Default
   - TransparentFX
