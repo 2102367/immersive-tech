@@ -9,6 +9,7 @@ TagManager:
   - Flower
   - Crystal
   - Portal 1
+  - TreeOfLife
   layers:
   - Default
   - TransparentFX
