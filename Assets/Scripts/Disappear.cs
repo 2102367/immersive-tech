@@ -26,7 +26,7 @@ public class Disappear : MonoBehaviour
 
     private void OnGrabbed(SelectEnterEventArgs args)
     {
-        GameObject.Find("ObjectiveText").GetComponent<TextMeshProUGUI>().SetText("Objective: Collect ingredients and put them in the cauldron near the portal.");
+        // GameObject.Find("ObjectiveText").GetComponent<TextMeshProUGUI>().SetText("Objective: Collect ingredients and put them in the cauldron near the portal.");
         ingredientText.SetActive(true);
         gameObject.SetActive(false);
         
@@ -35,7 +35,7 @@ public class Disappear : MonoBehaviour
     //for first person controller 
     private void OnMouseDown()
     {
-        GameObject.Find("ObjectiveText").GetComponent<TextMeshProUGUI>().SetText("Objective: Collect ingredients and put them in the cauldron near the portal.");
+        // GameObject.Find("ObjectiveText").GetComponent<TextMeshProUGUI>().SetText("Objective: Collect ingredients and put them in the cauldron near the portal.");
         ingredientText.SetActive(true);
         gameObject.SetActive(false);
     }

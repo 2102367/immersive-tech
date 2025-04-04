@@ -19,8 +19,7 @@ public class GameStateManager : MonoBehaviour
         mushrooms = 0;
         crystals = 0;
         flowers = 0;
-        GameObject.Find("ObjectiveText").GetComponent<TextMeshProUGUI>().SetText("Objective: Find the recipe scroll for the antidote.");
-
+        // GameObject.Find("ObjectiveText").GetComponent<TextMeshProUGUI>().SetText("Objective: Find the recipe scroll for the antidote.");
     }
 
     // Update is called once per frame
