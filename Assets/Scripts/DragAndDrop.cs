@@ -11,6 +11,7 @@ public class DragAndDrop : MonoBehaviour
     }
 
     private void OnMouseDown(){
+        GetComponent<AudioSource>().Play();
         mousePosition = Input.mousePosition - GetMousePos();
     }
 

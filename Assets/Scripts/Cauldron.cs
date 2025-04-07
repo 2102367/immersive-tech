@@ -21,14 +21,17 @@ public class Cauldron : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {   
         if(other.tag == "Mushroom"){
+            GetComponent<AudioSource>().Play();
             gsm.mushrooms++;
             Destroy(other.gameObject);
         }
         if(other.tag == "Crystal"){
+            GetComponent<AudioSource>().Play();
             gsm.crystals++;
             Destroy(other.gameObject);
         }
         if(other.tag == "Flower"){
+            GetComponent<AudioSource>().Play();
             gsm.flowers++;
             Destroy(other.gameObject);
         }        

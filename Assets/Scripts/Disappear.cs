@@ -36,6 +36,7 @@ public class Disappear : MonoBehaviour
     private void OnMouseDown()
     {
         // GameObject.Find("ObjectiveText").GetComponent<TextMeshProUGUI>().SetText("Objective: Collect ingredients and put them in the cauldron near the portal.");
+        GetComponent<AudioSource>().Play();
         ingredientText.SetActive(true);
         gameObject.SetActive(false);
     }
