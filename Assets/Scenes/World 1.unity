@@ -6529,128 +6529,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc1ae331047a50c4dab7992c4eb5f407, type: 3}
---- !u!1001 &845060802
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2970748981331696658, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: dialogueLines.Array.data[0]
-      value: Hey again, I promise I'll leave you alone...
-      objectReference: {fileID: 0}
-    - target: {fileID: 2970748981331696658, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: dialogueLines.Array.data[1]
-      value: So first, find the antidote recipe, its laying around somewhere!
-      objectReference: {fileID: 0}
-    - target: {fileID: 2970748981331696658, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: dialogueLines.Array.data[2]
-      value: Then it will tell you the ingredients to put in this cauldron.
-      objectReference: {fileID: 0}
-    - target: {fileID: 2970748981331696658, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: dialogueLines.Array.data[3]
-      value: Once you're done, the portal should open and you can get on with the
-        mission!
-      objectReference: {fileID: 0}
-    - target: {fileID: 5972177919483786048, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 5972177919483786048, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 6036669997300453807, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_Name
-      value: Dr Bird
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101939005598516101, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -134.83661
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101939005598516101, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.6499996
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101939005598516101, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 58.650692
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101939005598516101, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9415356
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101939005598516101, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101939005598516101, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.33691368
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101939005598516101, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101939005598516101, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101939005598516101, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 39.378
-      objectReference: {fileID: 0}
-    - target: {fileID: 7101939005598516101, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8148123653936056091, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_text
-      value: So first, find the antidote recipe, its laying around somewhere!
-      objectReference: {fileID: 0}
-    - target: {fileID: 8148123653936056091, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_fontSize
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8148123653936056091, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8148123653936056091, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 256
-      objectReference: {fileID: 0}
-    - target: {fileID: 8744779274567846788, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8744779274567846788, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8744779274567846788, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8744779274567846788, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8744779274567846788, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8744779274567846788, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -13.200001
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
 --- !u!1 &884007934
 GameObject:
   m_ObjectHideFlags: 0
@@ -22377,6 +22255,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3705681663552495816}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4121424208999473792
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2789320460339204506, guid: 9c377ace27cfbd5458778110598c8c47, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -134.83661
+      objectReference: {fileID: 0}
+    - target: {fileID: 2789320460339204506, guid: 9c377ace27cfbd5458778110598c8c47, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 2789320460339204506, guid: 9c377ace27cfbd5458778110598c8c47, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 58.650692
+      objectReference: {fileID: 0}
+    - target: {fileID: 2789320460339204506, guid: 9c377ace27cfbd5458778110598c8c47, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9415356
+      objectReference: {fileID: 0}
+    - target: {fileID: 2789320460339204506, guid: 9c377ace27cfbd5458778110598c8c47, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2789320460339204506, guid: 9c377ace27cfbd5458778110598c8c47, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.33691368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2789320460339204506, guid: 9c377ace27cfbd5458778110598c8c47, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2789320460339204506, guid: 9c377ace27cfbd5458778110598c8c47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2789320460339204506, guid: 9c377ace27cfbd5458778110598c8c47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 39.378
+      objectReference: {fileID: 0}
+    - target: {fileID: 2789320460339204506, guid: 9c377ace27cfbd5458778110598c8c47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254125402045968662, guid: 9c377ace27cfbd5458778110598c8c47, type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: Hey again, I'm a hologram! I promise I'll leave you alone...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6026710369970718072, guid: 9c377ace27cfbd5458778110598c8c47, type: 3}
+      propertyPath: m_Name
+      value: Dr Bird
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c377ace27cfbd5458778110598c8c47, type: 3}
 --- !u!1 &4123621967085876499
 GameObject:
   m_ObjectHideFlags: 0
@@ -41826,4 +41765,4 @@ SceneRoots:
   - {fileID: 1837931862}
   - {fileID: 1810144566}
   - {fileID: 2023909568}
-  - {fileID: 845060802}
+  - {fileID: 4121424208999473792}
