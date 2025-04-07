@@ -21,6 +21,7 @@ public class DialogueManager : MonoBehaviour
 
     public void NextDialogue()
     {
+        
         index++;
 
         if (index >= dialogueLines.Length)
