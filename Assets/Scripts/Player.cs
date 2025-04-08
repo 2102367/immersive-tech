@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
             SceneManager.LoadScene("World 1");
         }
         if(other.tag == "Portal 2"){
-            SceneManager.LoadScene("World 2");
+            SceneManager.LoadScene("World 4");
         }
     }
 }
