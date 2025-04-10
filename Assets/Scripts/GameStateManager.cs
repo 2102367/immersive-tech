@@ -25,9 +25,9 @@ public class GameStateManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ingredientsTxt.SetText($"Mushrooms: {mushrooms}/5\nCrystals: {crystals}/5\nFlowers: {flowers}/5");
+        ingredientsTxt.SetText($"Mushrooms: {mushrooms}/5\nCrystals: {crystals}/2\nFlowers: {flowers}/5");
 
-        if(mushrooms >= 5 && crystals >= 5 && flowers >= 5){
+        if(mushrooms >= 5 && crystals >= 2 && flowers >= 5){
             portalArea.SetActive(true);
         }
 

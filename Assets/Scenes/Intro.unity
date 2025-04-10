@@ -5775,6 +5775,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8148123653936056091, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
+      propertyPath: m_text
+      value: Our Tree of Life was destroyed. This was our main source of energy...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148123653936056091, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
+      propertyPath: m_margin.w
+      value: 3.333908
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148123653936056091, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
+      propertyPath: m_margin.x
+      value: 3.3151016
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148123653936056091, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
+      propertyPath: m_margin.y
+      value: 3.0787506
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148123653936056091, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
+      propertyPath: m_margin.z
+      value: 2.8047333
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148123653936056091, guid: f4823a9dfdafd144a8d9a2b40c2cb770, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
