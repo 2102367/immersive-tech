@@ -20,7 +20,7 @@ public class PotionBottle : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {   
         if(other.tag == "TreeOfLife"){
-            SceneManager.LoadScene("World 3");
+            SceneManager.LoadScene("Finish");
         }
     }
 }
