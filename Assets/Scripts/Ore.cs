@@ -15,7 +15,7 @@ public class Ore : MonoBehaviour
         if(health == 0){
             Instantiate(newObjectPrefab, transform.position, transform.rotation);
             GetComponent<BoxCollider>().enabled = false;
-            gameObject.SetActive = false;
+            gameObject.SetActive(false);
         }
     }
 
