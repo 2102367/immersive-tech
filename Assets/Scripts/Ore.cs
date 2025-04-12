@@ -21,6 +21,7 @@ public class Ore : MonoBehaviour
 
     void OnTriggerEnter(Collider other){
         if(other.tag == "Pickaxe"){
+            GetComponent<AudioSource>().Play();
             health--;
         }
     }
