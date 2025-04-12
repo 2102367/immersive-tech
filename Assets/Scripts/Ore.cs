@@ -25,6 +25,14 @@ public class Ore : MonoBehaviour
             health--;
         }
     }
+
+    // void OnCollisionEnter(Collision collision)
+    // {
+    //     if(collision.collider.tag == "Pickaxe"){
+    //         GetComponent<AudioSource>().Play();
+    //         health--;
+    //     }
+    // }
     
 }
 
