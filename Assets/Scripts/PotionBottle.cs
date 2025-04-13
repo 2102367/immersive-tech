@@ -7,6 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 using TMPro;
 public class PotionBottle : MonoBehaviour
 {
+    public Vector3 teleportLocation;
     private void OnGrabbed(SelectEnterEventArgs args)
     {
         GetComponent<ParticleSystem>().Stop();
@@ -22,6 +23,9 @@ public class PotionBottle : MonoBehaviour
     {   
         if(other.tag == "TreeOfLife"){
             SceneManager.LoadScene("Finish");
+        }
+        if(other.tag == "Reset"){
+            transform.position = teleportLocation;
         }
     }
 }

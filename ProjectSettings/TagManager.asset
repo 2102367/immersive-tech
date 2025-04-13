@@ -12,6 +12,7 @@ TagManager:
   - TreeOfLife
   - Portal 2
   - Pickaxe
+  - Reset
   layers:
   - Default
   - TransparentFX
