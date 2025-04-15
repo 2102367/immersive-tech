@@ -210,6 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4947dba414220e48bd9a385b304fa5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  teleportLocation: {x: 0, y: 0, z: 0}
 --- !u!1 &299639867
 GameObject:
   m_ObjectHideFlags: 0
@@ -7363,6 +7364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4947dba414220e48bd9a385b304fa5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  teleportLocation: {x: 0, y: 0, z: 0}
 --- !u!1001 &1494860956
 PrefabInstance:
   m_ObjectHideFlags: 0
