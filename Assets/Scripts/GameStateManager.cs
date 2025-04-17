@@ -27,7 +27,7 @@ public class GameStateManager : MonoBehaviour
     {
         ingredientsTxt.SetText($"Mushrooms: {mushrooms}/5\nCrystals: {crystals}/2\nFlowers: {flowers}/5");
 
-        if(mushrooms >= 5 && crystals >= 3 && flowers >= 5){
+        if(mushrooms >= 5 && crystals >= 2 && flowers >= 5){
             portalArea.SetActive(true);
         }
 
